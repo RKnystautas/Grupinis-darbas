@@ -6,9 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <button id="myBtn">Open Modal</button>
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <label>
+                    <div>Produktas</div>
+                    <input type="text" placeholder="produkto pavadinimas...">
+                </label>
+                <label>
+                    <div>Kaina</div>
+                    <input type="text" placeholder="produkto kaina...">
+                </label>
+                <label>
+                    <div>Paveikslėlis</div>
+                    <input type="text" placeholder="produkto paveikslėlis...">
+                </label>
+            </form>
+        </div>
+
+    </div>
 
 </body>
 

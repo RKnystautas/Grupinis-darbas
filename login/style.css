@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+
+main, form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 5px 0 5px;
+}
+
+form {
+  width: 50%;
+}
+
+label {
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 0 0 5px 0;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.alert--success,
+.alert--error {
+  position: absolute;
+  top: 20px;
+  width: 90%;
+  display: none;
+  color: white;
+}
+
+.alert--error {
+  background-color: red;
+}
+
+.alert--success{
+  background-color: green;
+}
